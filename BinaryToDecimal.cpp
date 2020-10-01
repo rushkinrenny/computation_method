@@ -3,6 +3,7 @@
 #include<math.h>
 #include<conio.h>
 using namespace std;
+
 int main(){
     int binary,rem=0,i=0,result=0;
     cout<<"Enter Binary number : ";
@@ -13,7 +14,7 @@ int main(){
         result=result+rem*pow(2,i);
         i++;
     }
-    cout<<"Binary to decimal is:"<<result;
+    cout<<"Binary to decimal is:"<<result; // Binary number (base 2) convert into decimal number (base 10).
     getch();
 
 }
