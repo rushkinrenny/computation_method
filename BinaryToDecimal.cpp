@@ -13,7 +13,7 @@ int main(){
         result=result+rem*pow(2,i);
         i++;
     }
-    cout<<"Binary to decimal is : "<<result;
+    cout<<"Binary to decimal is:"<<result;
     getch();
 
 }
